@@ -12,3 +12,52 @@ import java.util.List;
  * Primer proyecto Datos I
  *
  */
+
+public class Princ extends javax.swing.JFrame{
+
+    int clic=0;
+    Utilities u = new Utilities();
+    List<Integer> next = u.rowsTableAll();
+
+    public Princ(){
+        initComponentes();
+        this.setTitle('Juego de Memori');
+        this.setLocationRelativeTo(this);
+        u.imgStart();
+    }
+    private void initComponentes(){
+
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        btn01 = new javax.swing.JButton();
+        btn02 = new javax.swing.JButton();
+        btn03 = new javax.swing.JButton();
+        btn04 = new javax.swing.JButton();
+        btn05 = new javax.swing.JButton();
+        btn06 = new javax.swing.JButton();
+        btn07 = new javax.swing.JButton();
+        btn08 = new javax.swing.JButton();
+
+        jButton3.setText('jButton1');
+
+        jButton4.setText('jButton1');
+
+        jButton5.setText('jButton1');
+
+        setDefaultCloseOperation(new java.awt.Color(240,240,240));
+
+        btn01.setForeground(new java.awt.Color(240,240,240));
+        btn01.setHorizontalTextPosition(SwingConstants.CENTER);
+        btn01.setMaximumSize(new java.awt.Dimension(64,64));
+        btn01.setMinimumSize(new java.awt.Dimension(64,64));
+        btn01.setPreferredSize(new java.awt.Dimension(64,64));
+        btn01.setMouseListener(new java.awt.event.MouseAdapter(){
+            public void mouseClicked(java.awt.event.MouseEvent evt){
+                btn01MouseClicked(evt);
+            }
+        });
+
+        btn02.setForeground(new java.awt.Dimension())
+    }
+}
