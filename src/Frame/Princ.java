@@ -16,7 +16,7 @@ public class Princ extends javax.swing.JFrame {
     /**
      * Creacion del form principal
      */
-
+    int clic = 0;
     Utilities u = new Utilities();
     List<Integer> next = u.rowsTableAll();
 
