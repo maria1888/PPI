@@ -129,6 +129,29 @@ public class Princ extends javax.swing.JFrame{
             }
         });
 
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+                layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING,false)
+                                        .addComponent(btn02, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(btn01, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE,Short.MAX_VALUE))
+                                .addGap(18,18,18)
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                        .addComponent(btn03, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(btn04, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE))
+                                .addGap(18,18,18)
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                        .addComponent(btn05, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(btn06, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE))
+                                .addGap(18,18,18)
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                        .addComponent(btn07, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(btn08, GroupLayout.PREFERRED_SIZE,72, GroupLayout.PREFERRED_SIZE))
+                                .addContainerGap(GroupLayout.DEFAULT_SIZE,Short.MAX_VALUE))
+        );
 
     }
 }
